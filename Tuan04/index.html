@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper {
+            display: flex;
+            justify-content: center;
+        }
+        
+        #container {
+            display: flex;
+            justify-content: space-between;
+            width: 1440px;
+        }
+        
+        #center {
+            width: 910px;
+            background-color: bisque;
+        }
+        
+        #right {
+            display: flex;
+            width: 440px;
+            background-color: aqua;
+        }
+        
+        #left {
+            width: 90px;
+            height: 870px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        #left_above {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #below {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .item {
+            width: 32px;
+            margin-top: 50px;
+        }
+        
+        #setting {
+            margin-top: 36px;
+        }
+        
+        #center1 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: aqua;
+        }
+        
+        #center2 {
+            display: flex;
+            height: 10%;
+            width: 100%;
+        }
+        
+        #center3 {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        #center3_1 {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        #center4 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            height: 30%;
+        }
+        #center5 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+        }
+        #right1{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        #right1_1{
+            display: flex;
+            justify-content: start;
+            width: 50%;
+        }
+        #right1_2{
+            display: flex;
+            justify-content: end;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="container">
+            <div id="left">
+                <div id="left_above">
+                    <img class="item" src="images/logo.png" alt="">
+                    <img class="item" src="images/home.png" alt="">
+                    <img class="item" src="images/cam.png" alt="">
+                    <img class="item" src="images/chatting.png" alt="">
+                    <img class="item" src="images/user.png" alt="">
+                </div>
+
+                <div id="below">
+                    <img src="images/avatar.png" width="44" alt="">
+                    <img id="setting" src="images/setting.png" width="44" alt="">
+                </div>
+            </div>
+            <div id="center">
+                <div id="center1">
+                    <h2>Meeting title</h2>
+                    <button><li>12:00</li></button>
+                </div>
+                <div id="center2">
+                    <div>
+                        <button>Internal</button>
+                        <input type="date" name="date" id="date">
+                        <h5>08:00 - 09:00 AM</h5>
+                    </div>
+    
+                </div>
+                <div id="center3">
+                    <div id="center3_1">
+                        <img src="images/img_big.png" width="100%" alt="">
+                    </div>
+                </div>
+                <div id="center4">
+                    <div id="center4_1">
+                        <img src="images/img2.png" alt="">
+                    </div>
+                    <div id="center4_2">
+                        <img src="images/img1.png" alt="">
+                    </div>
+                    <div id="center4_3">
+                        <img src="images/img.png" alt="">
+                    </div>
+                </div>
+                <div id="center5">
+                    <div>
+                        <img src="images/mic_grey_color.png" alt="">
+                        <img src="images/cam_color.png" alt="">
+                        <img src="images/speaker_grey_color.png" alt="">
+                        <button>END MEETING</button>
+                        <img src="images/Button 2179.png" alt="">
+                        <img src="images/share.png" alt="">
+                        <img src="images/3cham.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id=" right ">
+                <div id="right1">
+                    <div id="right1_1"><h2>Praticipants</h2></div>
+                    <div id="right1_2"><button>+ Add</button></div>
+                </div>
+            </div>
+
+        </div>
+
+</body>
+
+</html>
